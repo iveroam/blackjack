@@ -1,0 +1,48 @@
+.result-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: 1 / span 4;
+    grid-row: 4;
+}
+
+.result-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.blackjack-result, .win-result, .push-result, .lose-result, .surrender-result {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 14px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blackjack-result {
+    background-color: #e6b800;
+}
+
+.win-result {
+    background-color: #28a745;
+}
+
+.push-result {
+    background-color: #919ca6;
+}
+
+.lose-result {
+    background-color: #ff4d4d;
+}
+
+.surrender-result {
+    background-color: #ffffff;
+}

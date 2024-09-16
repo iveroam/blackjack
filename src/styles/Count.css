@@ -1,0 +1,65 @@
+.cardcount-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+}
+
+.cardcount-content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.cardcount-content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.count-button {
+    background-color: rgb(35, 122, 203);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Lora', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 130px;
+    text-align: right;
+    display: inline-block;
+    white-space: pre;
+}
+
+.count-button:hover {
+    background-color: rgb(37, 95, 153);
+    color: white;
+}
+
+.deckcount-section {
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.deckcount-content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.deckcount-content img {
+    width: 35px;
+    height: 50px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}

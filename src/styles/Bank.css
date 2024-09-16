@@ -1,0 +1,29 @@
+.bank-section {
+    grid-column: 1 / span 4;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.bank-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.money-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.bank-button {
+    width: 10vh;
+    font-size: 16px;
+}

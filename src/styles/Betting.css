@@ -1,0 +1,32 @@
+.betting-section {
+    grid-column: 4;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    height: 130px;
+}
+
+.bet {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: black;
+    background: url('./cards/chip.png') center/contain no-repeat;
+    background-size: 75%;
+    padding: 5px;
+    height: 100px;
+    width: 155px;
+}
+
+.betting-section h3 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9em;
+}

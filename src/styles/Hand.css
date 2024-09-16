@@ -1,0 +1,46 @@
+.player-section, .dealer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.player-section {
+    grid-column: 1 / span 4;
+    grid-row: 4;
+    margin-bottom: 50px;
+}
+
+.player-section h1{
+    margin-top: 70px;
+}
+
+.dealer-section {
+    margin-top: 20px;
+    grid-column: 1 / span 4;
+    grid-row: 2;
+}
+
+.upcard-img {
+    width: 75px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.holecard-img {
+    width: 75px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.player {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.hand {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

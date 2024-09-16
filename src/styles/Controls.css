@@ -1,0 +1,9 @@
+.controls-section {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px;
+}
